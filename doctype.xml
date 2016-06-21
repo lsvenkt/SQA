@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<DocumentType>
+    <type>
+    <slno>1
+        <Abbr>PSAC</Abbr>
+        <DocName>Plan for Software Aspects of Certification</DocName>      
+    </slno>
+    <slno>2
+        <Abbr>SDP</Abbr>
+        <DocName>Software Development Plan</DocName>      
+    </slno>
+    <slno>3
+        <Abbr>SCMP</Abbr>
+        <DocName>Software Configuration Management Plan</DocName>      
+    </slno>
+    <slno>4
+        <Abbr>SVP</Abbr>
+        <DocName>Software Verification Plan</DocName>      
+    </slno>
+    <slno>5
+        <Abbr>SQAP</Abbr>
+        <DocName>Software Quality Assurance Plan</DocName>      
+    </slno>
+    </type>
+    
+</DocumentType>
+

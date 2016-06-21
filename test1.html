@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title></title>
+    <script src="js/jquery-2.1.4.min.js"></script>
+<style>
+    .ui-autocomplete {
+    cursor : pointer;
+    height: 120px;
+    overflow-y: scroll ;
+}
+</style>
+</head>
+<body style="font-size:62.5%;">
+<div style="font: 14px arial ">
+<input type="text" id="tbCountries" />
+</div>
+<script>
+    $(document).ready(function() {
+        BindControls();
+    });
+
+    function BindControls() {
+        var Countries  = ['ARGENTI NA',
+        'AUSTRALI A',
+        'BRAZI L',
+        'BELARUS',
+        'BHUTAN',
+        'CHI LE',
+        'CAMBODI A',
+        'CANADA',
+        'CHI LE',
+        'DENMARK',
+        'DOMI NI CA'];
+        $("#tbCountries").autocomplete({
+            source:Countries,
+            minLength:0,
+            scroll: true
+            }).focus(function() {
+                $(this).autocomplete("search", "");
+        });
+}
+</script>
+</body>
+</html>
+
